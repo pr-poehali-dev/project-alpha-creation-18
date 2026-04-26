@@ -18,20 +18,21 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="/images/spiral-circles.jpg"
-            alt="Abstract spiral circles"
+            src="https://cdn.poehali.dev/projects/e25038a7-16e9-4efa-82c1-a491e2193466/files/4837bd3f-45c9-4d7a-bfb5-03d8721952d8.jpg"
+            alt="Океанские волны"
             className="w-full h-full object-cover"
           />
+          <div className="absolute inset-0 bg-black/40" />
         </motion.div>
       </div>
 
       <h3 className="absolute top-12 right-6 text-white uppercase z-10 text-sm md:text-base lg:text-lg">
-        Анатомия возможностей
+        Доставка по всей России
       </h3>
 
       <p className="absolute bottom-12 right-6 text-white text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl max-w-xs sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-5xl z-10">
-        Каждая секция — рамка для твоей истории. Формируй её, миксуй и позволь контенту
-        литься в неожиданные паттерны, заставляя листать дальше.
+        Камчатский краб, дальневосточная устрица, живые омары —
+        упакованы в холод и доставлены живыми в любую точку страны.
       </p>
     </div>
   );
